@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SentMemeTableViewController: UITableViewController, UITableViewDataSource {
+class SentMemeTableViewController: UITableViewController {
     
     let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     

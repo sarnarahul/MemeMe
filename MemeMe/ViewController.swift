@@ -81,9 +81,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func textFieldDidEndEditing(textField: UITextField) {
         
-        var rawString = textField.text
-        var whitespace = NSCharacterSet.whitespaceAndNewlineCharacterSet
-        var trimmed = rawString!.stringByTrimmingCharactersInSet(whitespace());
+        let rawString = textField.text
+        let whitespace = NSCharacterSet.whitespaceAndNewlineCharacterSet
+        let trimmed = rawString!.stringByTrimmingCharactersInSet(whitespace());
         if (trimmed.isEmpty) {
             // Text was empty or only whitespace.
             if(textField == topTextField){
@@ -136,8 +136,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     //Image Picker Methods
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-        
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             self.imagePickerView.image = image
         }
@@ -169,7 +168,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     //Meme Editor
     func save() {
         //Create the meme
-        var meme = Meme(top: topTextField.text!, bottom: bottomTextField.text!, originalImage:imagePickerView.image!, memeImage: generateMemedImage())
+        let meme = Meme(top: topTextField.text!, bottom: bottomTextField.text!, originalImage:imagePickerView.image!, memeImage: generateMemedImage())
         
         // Add it to the memes array in the Application Delegate
         let object = UIApplication.sharedApplication().delegate
@@ -179,9 +178,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBAction func shareButton(sender: UIBarButtonItem) {
         
-        var memedImage = generateMemedImage();
+        let memedImage = generateMemedImage();
         
-        var activityVC = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
+        let activityVC = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
         
         activityVC.completionWithItemsHandler = {
             (activityType, completed, returnedItems, activityError) -> Void in

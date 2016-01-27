@@ -10,7 +10,7 @@ import UIKit
 
 let reuseIdentifier = "CustomMemeCell"
 
-class SentMemesCollectionViewController: UICollectionViewController, UICollectionViewDataSource {
+class SentMemesCollectionViewController: UICollectionViewController {
     
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!
     
@@ -60,7 +60,7 @@ class SentMemesCollectionViewController: UICollectionViewController, UICollectio
         let meme = self.appDelegate.memes[indexPath.item]
         cell.setTopBottomText(meme.top, bottomText: meme.bottom)
         let imageView = UIImageView(image: meme.memeImage)
-        imageView.autoresizingMask = UIViewAutoresizing.FlexibleBottomMargin | UIViewAutoresizing.FlexibleHeight | UIViewAutoresizing.FlexibleRightMargin | UIViewAutoresizing.FlexibleLeftMargin | UIViewAutoresizing.FlexibleTopMargin | UIViewAutoresizing.FlexibleWidth
+        imageView.autoresizingMask = [UIViewAutoresizing.FlexibleBottomMargin, UIViewAutoresizing.FlexibleHeight , UIViewAutoresizing.FlexibleRightMargin , UIViewAutoresizing.FlexibleLeftMargin , UIViewAutoresizing.FlexibleTopMargin , UIViewAutoresizing.FlexibleWidth]
         imageView.contentMode = UIViewContentMode.Center
         cell.backgroundView = imageView
 
