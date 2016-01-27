@@ -11,7 +11,17 @@
 		161659541B5B4A4F00B95EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161659531B5B4A4F00B95EFE /* ViewController.swift */; };
 		161659571B5B4A4F00B95EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161659551B5B4A4F00B95EFE /* Main.storyboard */; };
 		161659591B5B4A4F00B95EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161659581B5B4A4F00B95EFE /* Assets.xcassets */; };
-		1616595C1B5B4A4F00B95EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1616595A1B5B4A4F00B95EFE /* LaunchScreen.storyboard */; };
+		162E4F991B65724100C9922C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162E4F981B65724100C9922C /* LaunchScreen.xib */; };
+		162E86961B8D9DB0002322A3 /* MemeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E86951B8D9DB0002322A3 /* MemeDetailViewController.swift */; };
+		162E86981B8F5CAE002322A3 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = 162E86971B8F5CAE002322A3 /* table.png */; };
+		162E869A1B8F5CE6002322A3 /* glyphicons_114_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 162E86991B8F5CE6002322A3 /* glyphicons_114_list.png */; };
+		162E869C1B8F5CEF002322A3 /* thumbnails.png in Resources */ = {isa = PBXBuildFile; fileRef = 162E869B1B8F5CEF002322A3 /* thumbnails.png */; };
+		162E869E1B8F5CF8002322A3 /* lines.png in Resources */ = {isa = PBXBuildFile; fileRef = 162E869D1B8F5CF8002322A3 /* lines.png */; };
+		16AE13231B8AAB3F0071B410 /* SentMemeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AE13221B8AAB3F0071B410 /* SentMemeCVC.swift */; };
+		16AE13251B8AABA40071B410 /* SentMemeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AE13241B8AABA40071B410 /* SentMemeTVC.swift */; };
+		16AE13271B8ABD890071B410 /* CustomMemeCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AE13261B8ABD890071B410 /* CustomMemeCVCell.swift */; };
+		16AE13291B8C59240071B410 /* CustomTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AE13281B8C59240071B410 /* CustomTVCell.swift */; };
+		16DD0BA61B8933A60033B496 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD0BA51B8933A60033B496 /* Meme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +30,18 @@
 		161659531B5B4A4F00B95EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		161659561B5B4A4F00B95EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		161659581B5B4A4F00B95EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1616595B1B5B4A4F00B95EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1616595D1B5B4A4F00B95EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162E4F981B65724100C9922C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		162E86951B8D9DB0002322A3 /* MemeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeDetailViewController.swift; sourceTree = "<group>"; };
+		162E86971B8F5CAE002322A3 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = "<group>"; };
+		162E86991B8F5CE6002322A3 /* glyphicons_114_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_114_list.png; sourceTree = "<group>"; };
+		162E869B1B8F5CEF002322A3 /* thumbnails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnails.png; sourceTree = "<group>"; };
+		162E869D1B8F5CF8002322A3 /* lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lines.png; sourceTree = "<group>"; };
+		16AE13221B8AAB3F0071B410 /* SentMemeCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentMemeCVC.swift; sourceTree = "<group>"; };
+		16AE13241B8AABA40071B410 /* SentMemeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentMemeTVC.swift; sourceTree = "<group>"; };
+		16AE13261B8ABD890071B410 /* CustomMemeCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMemeCVCell.swift; sourceTree = "<group>"; };
+		16AE13281B8C59240071B410 /* CustomTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTVCell.swift; sourceTree = "<group>"; };
+		16DD0BA51B8933A60033B496 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,10 @@
 		161659451B5B4A4F00B95EFE = {
 			isa = PBXGroup;
 			children = (
+				162E86971B8F5CAE002322A3 /* table.png */,
+				162E86991B8F5CE6002322A3 /* glyphicons_114_list.png */,
+				162E869B1B8F5CEF002322A3 /* thumbnails.png */,
+				162E869D1B8F5CF8002322A3 /* lines.png */,
 				161659501B5B4A4F00B95EFE /* MemeMe */,
 				1616594F1B5B4A4F00B95EFE /* Products */,
 			);
@@ -56,10 +80,16 @@
 			children = (
 				161659511B5B4A4F00B95EFE /* AppDelegate.swift */,
 				161659531B5B4A4F00B95EFE /* ViewController.swift */,
+				16DD0BA51B8933A60033B496 /* Meme.swift */,
+				16AE13241B8AABA40071B410 /* SentMemeTVC.swift */,
+				16AE13221B8AAB3F0071B410 /* SentMemeCVC.swift */,
 				161659551B5B4A4F00B95EFE /* Main.storyboard */,
 				161659581B5B4A4F00B95EFE /* Assets.xcassets */,
-				1616595A1B5B4A4F00B95EFE /* LaunchScreen.storyboard */,
 				1616595D1B5B4A4F00B95EFE /* Info.plist */,
+				162E4F981B65724100C9922C /* LaunchScreen.xib */,
+				16AE13261B8ABD890071B410 /* CustomMemeCVCell.swift */,
+				16AE13281B8C59240071B410 /* CustomTVCell.swift */,
+				162E86951B8D9DB0002322A3 /* MemeDetailViewController.swift */,
 			);
 			path = MemeMe;
 			sourceTree = "<group>";
@@ -121,8 +151,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1616595C1B5B4A4F00B95EFE /* LaunchScreen.storyboard in Resources */,
+				162E86981B8F5CAE002322A3 /* table.png in Resources */,
+				162E869A1B8F5CE6002322A3 /* glyphicons_114_list.png in Resources */,
+				162E869C1B8F5CEF002322A3 /* thumbnails.png in Resources */,
+				162E4F991B65724100C9922C /* LaunchScreen.xib in Resources */,
 				161659591B5B4A4F00B95EFE /* Assets.xcassets in Resources */,
+				162E869E1B8F5CF8002322A3 /* lines.png in Resources */,
 				161659571B5B4A4F00B95EFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,8 +168,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DD0BA61B8933A60033B496 /* Meme.swift in Sources */,
 				161659541B5B4A4F00B95EFE /* ViewController.swift in Sources */,
+				16AE13231B8AAB3F0071B410 /* SentMemeCVC.swift in Sources */,
+				16AE13271B8ABD890071B410 /* CustomMemeCVCell.swift in Sources */,
 				161659521B5B4A4F00B95EFE /* AppDelegate.swift in Sources */,
+				16AE13291B8C59240071B410 /* CustomTVCell.swift in Sources */,
+				16AE13251B8AABA40071B410 /* SentMemeTVC.swift in Sources */,
+				162E86961B8D9DB0002322A3 /* MemeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,14 +188,6 @@
 				161659561B5B4A4F00B95EFE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1616595A1B5B4A4F00B95EFE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1616595B1B5B4A4F00B95EFE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,8 +279,9 @@
 		161659611B5B4A4F00B95EFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = MemeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autokrat.MemeMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,8 +291,9 @@
 		161659621B5B4A4F00B95EFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = MemeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autokrat.MemeMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +319,7 @@
 				161659621B5B4A4F00B95EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
